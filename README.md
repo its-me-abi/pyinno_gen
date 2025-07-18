@@ -32,8 +32,12 @@
 ---
 
 ## 🛠️ Installation
+two ways to install 
 
-Clone the repository and install dependencies:
+by pypi 
+``` pip install pyinno-gen ```
+
+or Clone the repository from github
 
 ```bash
 git clone https://github.com/its-me-abi/pyinno_gen.git
