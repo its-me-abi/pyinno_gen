@@ -1,6 +1,6 @@
 # pyinno_gen
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)](https://www.python.org/)
 [![Issues](https://img.shields.io/github/issues/its-me-abi/pyinno_gen.svg)](https://github.com/its-me-abi/pyinno_gen/issues)
 
@@ -32,17 +32,17 @@
 ---
 
 ## 🛠️ Installation
-two ways to install 
+3 ways to install 
 
-by pypi 
-``` pip install pyinno-gen ```
+install from pypi using pip  
+``` pip install pyinno-gen ```  
 
-or Clone the repository from github
+otherwise clone the repository from github  
 
 ```bash
 git clone https://github.com/its-me-abi/pyinno_gen.git
 cd pyinno_gen
-pip install -r requirements.txt
+pip install -r requirementsz.txt
 ```
 
 ---
@@ -73,9 +73,12 @@ Tested on Python 3.12.x—should work on most versions!
 
 ## 📄 License
 
-This project is licensed under the **GPL v3.0**.
+This project is licensed under the **MIT**.
 
 ---
+### 🙏 Acknowledgements
+
+- [Inno Setup](https://jrsoftware.org/isinfo.php) by Jordan Russell
 
 ## 🤝 Contributing
 

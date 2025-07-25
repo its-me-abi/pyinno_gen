@@ -7,14 +7,14 @@ Homepage = "https://github.com/its-me-abi/pyinno_gen"
 
 [project]
 name = "pyinno_gen"
-version = "0.0.10"
-description = "module for programmatically generating iss file from jinja template"
+version = "0.0.11"
+description = "module for programmatically generating iss file from jinja template for innosetup installer generater"
 authors = [
 	{ name = "keralaboy", email = "keralaboypypi@keralaboy.anonaddy.com" }
     ]
 readme = "README.md"
 license =  "MIT"
-license-files = ["LICEN[CS]E.*"]
+license-files = ["LICENSE"]
 keywords = [   "compiler", "inno setup" , "exe", "installer" ,"generate",".iss"]
 classifiers = [
   "Development Status :: 4 - Beta",
