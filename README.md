@@ -42,7 +42,7 @@ otherwise clone the repository from github
 ```bash
 git clone https://github.com/its-me-abi/pyinno_gen.git
 cd pyinno_gen
-pip install -r requirementsz.txt
+pip install -r requirements.txt
 ```
 
 ---
