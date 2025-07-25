@@ -1,6 +1,6 @@
 # pyinno_gen
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](/license)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENCE)
 [![Python](https://img.shields.io/badge/Python-3.6%2B-blue.svg)](https://www.python.org/)
 [![Issues](https://img.shields.io/github/issues/its-me-abi/pyinno_gen.svg)](https://github.com/its-me-abi/pyinno_gen/issues)
 
