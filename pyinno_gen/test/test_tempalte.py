@@ -1,5 +1,5 @@
 import unittest
-import pyinno_gen
+from pyinno_gen import pyinno_gen
 
 
 class Test_template_string(unittest.TestCase):
@@ -11,7 +11,7 @@ class Test_template_string(unittest.TestCase):
         self.argument = {"name":"its-me-abi"}
         self.expected_result = "hello its-me-abi"
         self.outputfile = "generated.iss"
-        self.tmplteman = main.template_man(template_str=self.jinja)
+        self.tmplteman = pyinno_gen.template_man(template_str=self.jinja)
 
     def test_string_input(self):
         self.tmplteman.set_context(self.argument)
@@ -34,7 +34,7 @@ class Test_Innosetup_string(unittest.TestCase):
         self.argument = {"name":"its-me-abi"}
         self.expected_result = "hello its-me-abi"
         self.outputfile = "generated.iss"
-        self.inno = main.InnoSetup(template_str=self.jinja)
+        self.inno = pyinno_gen.InnoSetup(template_str=self.jinja)
 
     def test_string_input(self):
         result = self.inno.generate(self.argument)
