@@ -45,8 +45,11 @@ class template_man:
 
     def generate(self):
         if self.template_str == "":
+            logger.info(f"template string is empty")
             template = self.env.get_template(self.name)
+
         else:
+            logger.info(f"template string is not empty ")
             template = self.env.from_string(self.template_str)
         return template.render(self.context)
 
@@ -90,7 +93,9 @@ class InnoSetup:
         return self.template.generate()
 
     def write_to_file(self,args,file=""):
-        return self.template.write_to_file(args,file)
+        val = self.template.write_to_file(args,file)
+        logger.info(f"written to file {file}")
+        return val
 
 def generate_iss(args,input_path,output_path):
     file , folder = Path( input_path ).name , str( Path( input_path ).parent )
