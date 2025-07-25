@@ -10,7 +10,7 @@
 
 ## 🚀 Overview
 
-**pyinno_gen** is a Python tool for programmatically creating `.iss` files—scripts for [Inno Setup](http://www.jrsoftware.org/isinfo.php), a popular free installer for Windows programs.
+**pyinno_gen** is a Python tool for programmatically creating `.iss` files for [Inno Setup](http://www.jrsoftware.org/isinfo.php), it is a popular free installer for Windows programs.
 
 - **Author:** [its-me-abi](https://github.com/its-me-abi)
 - **Date:** 12/7/2025
