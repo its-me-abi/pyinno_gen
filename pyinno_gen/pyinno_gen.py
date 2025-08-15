@@ -47,7 +47,6 @@ class template_man:
         if self.template_str == "":
             logger.info(f"template string is empty")
             template = self.env.get_template(self.name)
-
         else:
             logger.info(f"template string is not empty ")
             template = self.env.from_string(self.template_str)
@@ -60,7 +59,7 @@ class template_man:
                 logger.error("writing template to file but not provided filepath,unable to write stoping execution")
                 return
 
-        with open(file, "w") as f:
+        with open(file, "w+") as f:
             self.set_context(args)
             data = self.generate()
             f.write(data)
@@ -72,6 +71,7 @@ class InnoSetup:
        opt varible is used for changing jinjas canry values that used for identifing jinja delimiters, we csan change it
     """
     def __init__(self, template_name="",template_path=".",template_str=""):
+        # opt meass delimiters and patterns for replacing
         self.opt = {
                   "block_start_string": "[%",
                   "block_end_string": "%]",
